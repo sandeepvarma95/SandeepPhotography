@@ -1,0 +1,58 @@
+.title-section {
+  background-color: #282828;
+  color: #fff;
+}
+
+
+.navbar-brand {
+  font-family: 'Rowdies', cursive;
+  font-size: 1.5rem;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.big-heading{
+  padding: 12px;
+}
+
+.visit-button{
+  margin: 5% 10% 5% 0%;
+  margin-left: 10px;
+}
+
+.title-image{
+  width: 60%;
+  right: 30%;
+  position: absolute;
+  z-index: 1;
+  padding: 20px 0px 0px 0px;
+}
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+  }
+}
+
+#testimonial{
+  text-align: center;
+  background-color: #cedebd;
+  color: black;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+}
+
+.testinomial-image{
+  width: 70%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
